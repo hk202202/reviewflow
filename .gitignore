@@ -1,0 +1,21 @@
+node_modules/
+.next/
+__pycache__/
+*.pyc
+.env
+.env.local
+.venv/
+venv/
+dist/
+build/
+*.egg-info/
+.DS_Store
+postgres_data/
+reviewflow.db
+*.db
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Celery beat runtime state
+celerybeat-schedule*
